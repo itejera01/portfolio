@@ -1,15 +1,20 @@
-# 🚀 Ignacio's Cute Portfolio
+# 💼 Ignacio Tejera - Portfolio
 
-A beautiful, modern, and cute portfolio website built with Astro and Tailwind CSS!
+> Full Stack Developer & Software Engineer
+
+A modern, professional portfolio website showcasing my journey as a software developer. Built with Astro and Tailwind CSS, featuring a sophisticated dark theme that reflects my technical expertise and passion for clean, efficient code.
+
+🌐 **Live Site**: [Coming Soon]
 
 ## ✨ Features
 
-- 🎨 **Cute & Modern Design** - Playful animations and beautiful gradients
-- ⚡ **Lightning Fast** - Built with Astro for optimal performance
-- 📱 **Fully Responsive** - Looks great on all devices
-- 🌈 **Beautiful Animations** - Smooth transitions and floating elements
-- 🎯 **SEO Optimized** - Meta tags and semantic HTML
-- ♿ **Accessible** - Built with accessibility in mind
+- 🎨 **Professional Dark Design** - Clean, modern interface optimized for developer aesthetics
+- ⚡ **Lightning Fast** - Built with Astro for optimal performance and SEO
+- 📱 **Fully Responsive** - Seamless experience across all devices
+- 🌌 **Smooth Animations** - Subtle, professional transitions and hover effects
+- 🎯 **SEO Optimized** - Proper meta tags and semantic HTML structure
+- ♿ **Accessible** - Built following WCAG guidelines
+- 🌙 **Dark Theme** - Easy on the eyes with professional color palette
 
 ## 🛠️ Tech Stack
 
@@ -20,22 +25,35 @@ A beautiful, modern, and cute portfolio website built with Astro and Tailwind CS
 
 ## 🚀 Getting Started
 
-1. **Install dependencies:**
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/itejera01/portfolio.git
+   cd portfolio
+   ```
+
+2. **Install dependencies:**
    ```bash
    npm install
    ```
 
-2. **Start the development server:**
+3. **Start the development server:**
    ```bash
    npm run dev
    ```
+   Open [http://localhost:4321](http://localhost:4321) to view it in the browser.
 
-3. **Build for production:**
+4. **Build for production:**
    ```bash
    npm run build
    ```
 
-4. **Preview the build:**
+5. **Preview the build:**
    ```bash
    npm run preview
    ```
@@ -62,10 +80,10 @@ A beautiful, modern, and cute portfolio website built with Astro and Tailwind CS
 └── package.json
 ```
 
-## 🎨 Customization
+## 🎆 Customization
 
 ### Colors
-The portfolio uses a beautiful gradient color scheme defined in `tailwind.config.mjs`. You can customize the colors by modifying the `primary` and `secondary` color palettes.
+The portfolio uses a professional dark color scheme defined in `tailwind.config.mjs`. You can customize the colors by modifying the `primary`, `accent`, and `dark` color palettes.
 
 ### Content
 Update the content in the component files:
@@ -77,25 +95,62 @@ Update the content in the component files:
 ### Projects
 Add your own projects by modifying the `projects` array in `src/components/Projects.astro`.
 
-## 🌟 Features Included
+## 🌟 Portfolio Sections
 
-- **Hero Section** with animated profile and call-to-action buttons
-- **About Section** with skills and fun facts
-- **Projects Showcase** with hover effects and tech stack tags
-- **Contact Form** with beautiful styling
-- **Footer** with social links
-- **Smooth Scrolling** navigation
-- **Floating Background Elements** for visual appeal
-- **Responsive Design** that works on all devices
+### 👤 About Me
+- **Education**: Bachelor's in Web Development (ESI, Buceo 2020-2022)
+- **Current**: Software Engineer at ITI (2023-Present)
+- **Skills**: Full-stack development with modern technologies
+- **Approach**: Problem-first thinking, clean architecture, continuous learning
 
+### 🛠️ Technical Skills
+- **Frontend**: React, TypeScript, Next.js, Tailwind CSS
+- **Backend**: Node.js, Python, PostgreSQL
+- **Cloud & DevOps**: AWS, Docker, CI/CD
+- **Tools**: Git, VS Code, Figma
+
+### 🚀 Featured Projects
+
+#### PigmentAI (2025)
+- **Description**: AI-powered color palette generator
+- **Tech Stack**: Next.js, Supabase, Vercel, Google Cloud AI
+- **Status**: Production
+- **Links**: [GitHub](https://github.com/itejera01/pigmentAI) | [Live Demo](https://pigment-ai.vercel.app)
+
+### 📬 Contact Information
+- **Email**: [itejera01@gmail.com](mailto:itejera01@gmail.com)
+- **LinkedIn**: [linkedin.com/in/ignacio-tejera](https://www.linkedin.com/in/ignacio-tejera-571a9733b/)
+- **GitHub**: [github.com/itejera01](https://github.com/itejera01)
+- **Status**: 🟢 Available for new opportunities
 ## 📝 License
 
 MIT License - feel free to use this template for your own portfolio!
 
 ## 🤝 Contributing
 
-Feel free to submit issues and enhancement requests!
+While this is a personal portfolio, I welcome:
+- Bug reports and fixes
+- Performance improvements
+- Accessibility enhancements
+- Code quality suggestions
+
+Feel free to open an issue or submit a pull request!
+
+## 🚀 Deployment
+
+This portfolio is optimized for deployment on:
+- **Vercel** (recommended for Astro)
+- **Netlify**
+- **GitHub Pages**
+- **Any static hosting service**
+
+### Deploy to Vercel
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Vercel will automatically detect Astro and deploy
 
 ---
 
-Made with ❤️ and lots of ☕ by Ignacio Tejera
+**Built with ❤️ by Ignacio Tejera**
+
+*Passionate about creating efficient, scalable solutions that solve real-world problems.*
