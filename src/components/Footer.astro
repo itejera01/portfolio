@@ -1,0 +1,70 @@
+---
+// Footer component
+---
+
+<footer class="relative z-10 bg-gray-900 text-white py-12 px-4">
+  <div class="max-w-6xl mx-auto">
+    <div class="grid md:grid-cols-3 gap-8 mb-8">
+      <!-- Left - Brand -->
+      <div class="text-center md:text-left">
+        <h3 class="text-2xl font-bold mb-4 font-cute bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent">
+          Ignacio Tejera
+        </h3>
+        <p class="text-gray-400 font-modern">
+          Full Stack Developer passionate about creating amazing digital experiences.
+        </p>
+      </div>
+
+      <!-- Center - Quick Links -->
+      <div class="text-center">
+        <h4 class="text-lg font-semibold mb-4 font-cute">Quick Links</h4>
+        <div class="space-y-2">
+          <a href="#about" class="block text-gray-400 hover:text-primary-400 transition-colors duration-300">About</a>
+          <a href="#projects" class="block text-gray-400 hover:text-primary-400 transition-colors duration-300">Projects</a>
+          <a href="#contact" class="block text-gray-400 hover:text-primary-400 transition-colors duration-300">Contact</a>
+        </div>
+      </div>
+
+      <!-- Right - Social Links -->
+      <div class="text-center md:text-right">
+        <h4 class="text-lg font-semibold mb-4 font-cute">Connect</h4>
+        <div class="flex justify-center md:justify-end space-x-4">
+          <a href="https://github.com/ignacio-tejera" 
+             class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary-500 transition-colors duration-300">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/ignacio-tejera" 
+             class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors duration-300">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="mailto:hello@ignacio-tejera.dev" 
+             class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-red-500 transition-colors duration-300">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom - Copyright -->
+    <div class="border-t border-gray-800 pt-8 text-center">
+      <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+        <p class="text-gray-400 font-modern">
+          © 2025 Ignacio Tejera. Made with ❤️ and lots of ☕
+        </p>
+        <div class="flex items-center space-x-2 text-gray-400">
+          <span>Built with</span>
+          <span class="text-orange-400">🚀</span>
+          <span>Astro</span>
+          <span>&</span>
+          <span class="text-blue-400">💙</span>
+          <span>Tailwind CSS</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cute floating elements -->
+  <div class="absolute top-4 left-4 text-2xl opacity-20 animate-bounce-slow">⭐</div>
+  <div class="absolute top-8 right-8 text-xl opacity-20 animate-bounce-slow" style="animation-delay: 1s;">✨</div>
+  <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-lg opacity-20 animate-bounce-slow" style="animation-delay: 2s;">💫</div>
+</footer>
