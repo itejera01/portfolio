@@ -1,0 +1,59 @@
+---
+// Hero component
+---
+
+<section class="relative z-10 min-h-screen flex items-center justify-center px-4">
+  <div class="text-center max-w-4xl mx-auto">
+    <!-- Profile Image -->
+    <div class="mb-8 relative">
+      <div class="w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-primary-400 to-secondary-400 p-1 animate-pulse-slow">
+        <div class="w-full h-full rounded-full bg-white flex items-center justify-center text-6xl">
+          🚀
+        </div>
+      </div>
+      <!-- Cute floating elements around profile -->
+      <div class="absolute -top-4 -right-4 text-2xl animate-bounce-slow">✨</div>
+      <div class="absolute -bottom-4 -left-4 text-2xl animate-bounce-slow" style="animation-delay: 1s;">💫</div>
+      <div class="absolute top-1/2 -left-8 text-xl animate-bounce-slow" style="animation-delay: 2s;">🌟</div>
+    </div>
+
+    <!-- Main Heading -->
+    <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent font-cute">
+      Hi, I'm Ignacio! 👋
+    </h1>
+    
+    <!-- Subtitle -->
+    <p class="text-xl md:text-2xl text-gray-700 mb-8 font-modern leading-relaxed">
+      Full Stack Developer & Creative Coder
+      <br>
+      <span class="text-lg text-gray-600">Building beautiful digital experiences with passion ❤️</span>
+    </p>
+
+    <!-- Fun description -->
+    <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-6 mb-8 shadow-lg border border-white/50">
+      <p class="text-gray-700 text-lg font-modern leading-relaxed">
+        I love turning ideas into reality through code! When I'm not coding, you'll find me 
+        exploring new technologies, drinking coffee ☕, and probably debugging something 🐛
+      </p>
+    </div>
+
+    <!-- CTA Buttons -->
+    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+      <a href="#projects" 
+         class="bg-gradient-to-r from-primary-500 to-primary-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-primary-600 hover:to-primary-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+        <i class="fas fa-rocket mr-2"></i>
+        View My Work
+      </a>
+      <a href="#contact" 
+         class="bg-white/80 backdrop-blur-sm text-gray-700 px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:shadow-lg transform hover:scale-105 transition-all duration-300 border border-gray-200">
+        <i class="fas fa-envelope mr-2"></i>
+        Say Hello
+      </a>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <i class="fas fa-chevron-down text-2xl text-gray-400"></i>
+    </div>
+  </div>
+</section>
